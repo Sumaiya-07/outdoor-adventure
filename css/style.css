@@ -1,0 +1,350 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header{
+	background: url('../images/BG.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #00000075;
+	background-blend-mode: overlay;
+}
+	
+
+.navbar-brand{
+
+}
+.navbar-brand h1{
+
+font-size: 20px;
+
+font-weight: 600;
+}
+.navbar-brand h1 span{
+
+font-size: 14px;
+
+font-weight: 300;
+
+display: block;
+
+text-transform: uppercase;
+
+letter-spacing: 3px;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    padding: 20px 0;
+    font-size: 14px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    padding: 5px 20px;
+    transition: 0.3s;
+    border-radius: 25px;
+    background: transparent;
+    
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #fff;
+	border: 2px solid white ;
+	background:  transparent;
+	
+}
+
+	
+
+	
+
+.navbar-brand{
+
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    padding: 20px 0;
+    font-size: 14px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    padding: 5px 20px;
+    transition: 0.3s;
+    border-radius: 25px;
+    background: transparent;
+    
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #fff;
+	border: 2px solid white ;
+	background:  transparent;
+	
+}
+
+	
+.banner-content {
+    padding: 250px 0;
+    color: white;
+}
+
+.banner-content h4 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.banner-content span {
+    width: 100px;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+}
+.banner-content h1{
+
+font-size: 55px;
+
+line-height: 65px;
+
+font-weight: 700;
+
+margin: 30px;
+}
+.btn{
+
+font-size: 10px;
+
+padding: 10px 20px;
+
+background: #fb2056;
+
+border-radius: 30px;
+
+color: #fff;
+
+font-weight: 600;
+
+letter-spacing: 3px;
+
+display: inline-block;
+
+transition: 0.5s;
+}
+
+.btn:hover{
+	color: #fb2056;
+	border: 2px solid #fb2056;
+	background:  transparent;
+	
+}
+.quote-section{
+
+background: #f4f5f9;
+
+padding: 50px 0;
+}
+.quote img{
+
+filter: invert(1);
+}
+.quote h2{
+	
+font-size: 26;
+	
+font-weight: 300;
+	
+color: #4c5863;
+	
+margin-left: 0 30px;
+}
+.quote p{
+	
+margin-top: 30px;
+	
+color: #8c949c;
+	
+letter-spacing: 3px;
+	
+font-size: 18px;
+	
+font-weight: 600;
+}
+.text-left {
+    text-align: right;
+    margin-left: 50px;
+}
+.event-section{
+
+padding: 80px 0;
+}
+.heading{
+
+margin-bottom: 50px;
+}
+.heading h1{
+
+margin-bottom: 20px;
+}
+.event{
+
+text-align: center;
+}
+.heading span{
+
+width: 100px;
+
+height: 3px;
+
+background: red;
+
+display: block;
+
+margin: auto;
+}
+.event img{
+
+box-shadow: 10px 9px 0 lightgrey;
+
+border-radius: 10px;
+}
+.event h3{
+	margin-top: 60px;font-size: 24px;font-weight: 600;
+}
+.event p{
+
+margin-top: 20px;
+
+font-size: 16px;
+
+line-height: 24px;
+
+margin-bottom: 30px;
+}
+.event a{
+	
+
+	
+color: #fb2056;
+	
+text-decoration: none;
+	
+font-weight: 600;
+	
+font-size: 16px;
+	
+margin-top: 50px;
+}
+
+.event a i {
+    
+    margin: 10px;
+}
+.feature-section{
+	padding: 250px 0;
+	background: url('../images/f.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+.feature-content{
+	margin-right: 150px;
+	
+}
+.feature-content h1{
+
+font-size: 45px;
+
+line-height: 50px;
+
+font-weight: 700;
+
+
+
+color: white;
+
+text-transform: uppercase;
+}
+.feature-content span {
+    width: 80px;
+    height: 3px;
+    background: red;
+    display: block;
+    margin-left: 5px;
+}
+.feature-content p{
+	margin: 50px 0;
+	color: white;
+    font-size: 16px;
+}
+.feature-content a{
+
+color: white;
+
+text-transform: uppercase;
+
+font-size: 12px;
+
+letter-spacing: 2px;
+
+font-weight: 600;
+
+text-decoration: none;
+
+
+}
+.feature-content a:hover{
+	color: #fb2056;
+}
+.feature-content a i{
+
+}
+.about-section{
+
+padding: 80px 0;
+}
+
+.about h1{
+
+margin-bottom: 20px;
+}
+
+.about span {
+    width: 70px;
+    height: 3px;
+    background: red;
+    display: block;
+    margin-left: 5px;
+
+}
+.about p{
+
+margin-top: 20px;
+
+font-size: 20px;
+
+line-height: 30px;
+
+margin-bottom: 30px;
+}
+img{
+	max-width: 100%;
+}
+.mt-20{
+	margin-top: 20px;
+}
+footer{
+	padding: 30px 0;
+	background-color: #191919;
+}
+footer p{
+	color: #d3d3d3;
+	font-size: 16px;
+}
+.text-center {
+    text-align: center !important;
+    line-height: 8px;
+    margin-top: 20px;
+}
